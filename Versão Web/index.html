@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinhe o Número</h1>
+        <p>Estou pensando em um número entre 1 e 10.</p>
+        <input type="number" id="palpite" min="1" max="10" placeholder="Seu palpite">
+        <button onclick="verificarPalpite()">Tentar</button>
+        <p id="resultado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
